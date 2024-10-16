@@ -1,4 +1,5 @@
 import "./App.css";
+import { Counter } from "./Counter";
 
 function App() {
   function handleClick() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <h2>Amar name holo Ariful islam arfat</h2>
+      <Counter></Counter>
       <button onClick={handleClick}>Click Me pls</button>
       <button onClick={handleClick2}>Click me 2 pls</button>
       <button
