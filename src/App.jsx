@@ -1,6 +1,7 @@
 import "./App.css";
 import { Count2 } from "./Count2";
 import { Counter } from "./Counter";
+import { Usars } from "./Usars";
 
 function App() {
   function handleClick() {
@@ -24,6 +25,7 @@ function App() {
         ami nije nije korbo
       </button>
       <Count2></Count2>
+      <Usars></Usars>
     </>
   );
 }

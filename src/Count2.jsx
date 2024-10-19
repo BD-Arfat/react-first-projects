@@ -3,8 +3,12 @@ import { useState } from "react";
 export const Count2 = () => {
   const [count, setCount] = useState(5);
   const handleAddCount = () => {
-    const newCount = count + 1;
-    setCount(newCount);
+    if (count >= 12) {
+      alert("amader kache ar stoke e mal nai");
+    } else {
+      const newCount = count + 1;
+      setCount(newCount);
+    }
   };
   const handleRemoveCount = () => {
     if (count <= 0) {
