@@ -1,0 +1,19 @@
+img {
+  height: 300px;
+  width: 300px;
+}
+.card {
+  border: 2px solid red;
+  border-radius: 10px;
+  /* height: 410px; */
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.title {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+}
